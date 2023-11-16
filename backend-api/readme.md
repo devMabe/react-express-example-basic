@@ -5,6 +5,11 @@ Esto es simplemente una demo para empezar, si deseas que los datos persistan con
 ## para iniciar el server ejecute el siguiente comando
 
 ```bash
-  npm run dev
+  ###instalar dependencias
+  npm install
+  
+  ###iniciar servidor modo dev
+  npm run start
+
 
 ```

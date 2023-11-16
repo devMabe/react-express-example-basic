@@ -30,13 +30,13 @@ function TaskTable({ tasks, onEdit, onComplete }) {
               {task.status === "Completado" ? (
                 <button
                   disabled
-                  className="bg-gray-500 text-white px-4 py-2 mr-2 rounded"
+                  className="bg-gray-500 text-white px-2 py-1 mr-2 rounded text-sm"
                 >
                   Editar
                 </button>
               ) : (
                 <button
-                  className="bg-blue-500 text-white px-4 py-2 rounded mr-2 hover:bg-blue-800"
+                  className="bg-blue-500 text-white px-2 py-1 rounded mr-2 hover:bg-blue-800 text-sm"
                   onClick={() => onEdit(task.id)}
                 >
                   Editar
@@ -46,13 +46,13 @@ function TaskTable({ tasks, onEdit, onComplete }) {
               {task.status === "Completado" ? (
                 <button
                   disabled
-                  className="bg-gray-500 text-white px-4 py-2 rounded"
+                  className="bg-gray-500 text-white px-2 py-1 rounded text-sm"
                 >
                   Completar
                 </button>
               ) : (
                 <button
-                  className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-800"
+                  className="bg-green-500 text-white px-2 py-1 rounded hover:bg-green-800 text-sm"
                   onClick={() => onComplete(task.id)}
                 >
                   Completar

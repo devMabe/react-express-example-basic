@@ -8,7 +8,7 @@ Esto es simplemente una demo para empezar, si deseas que los datos persistan con
   ###instalar dependencias
   npm install
   
-  ###iniciar servidor modo dev
+  ###iniciar servidor
   npm run start
 
 
